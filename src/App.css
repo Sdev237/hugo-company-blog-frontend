@@ -3,6 +3,41 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+
+:root{
+  --c-principal: orangered;
+  --c-second: gray;
+  --c-blue-light: rgb(59 130 246 / 0.5);
+}
+
+@layer base{
+  html{
+    @apply scroll-smooth
+  }
+
+  body{
+    @apply font-[poppins]
+  }
+
+  li{
+    @apply p-4 text-sm
+  }
+
+  button{
+    @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white
+  }
+}
+
+
+.logo-d{
+  color: orangered;
+}
+
+.nav1{
+  background: orangered;
+}
+
 nav li a{
   @apply px-4 py-5 font-bold;
 }
@@ -11,6 +46,17 @@ nav li a:hover{
   @apply text-orange-500;
 }
 
+
 .mobile-navBar{
-  @apply block md:hidden fixed  right-0 top-10 px-4 py-2 w-full h-full bg-gray-900 duration-300;
+  @apply block md:hidden fixed  right-0 top-10 px-4  w-full h-full bg-gray-900 duration-300;
+}
+
+#nav-mob{
+  margin-top: 89.8px;
+}
+
+.nav-mobileList li{
+  margin-top: 15px;
+  font-size: 23px;
+  
 }
