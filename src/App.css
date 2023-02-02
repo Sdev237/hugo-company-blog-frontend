@@ -29,34 +29,35 @@
   }
 }
 
-
 .logo-d{
   color: orangered;
 }
 
 .nav1{
   background: orangered;
+
 }
 
 nav li a{
-  @apply px-4 py-5 font-bold;
+  @apply py-3 font-bold;
 }
 
 nav li a:hover{
   @apply text-orange-500;
-}
 
+}
+.nav-mobileList li{
+  
+  @apply text-2xl py-3 w-full font-bold;
+}
 
 .mobile-navBar{
-  @apply block md:hidden fixed  right-0 top-10 px-4  w-full h-full bg-gray-900 duration-300;
-}
-
-#nav-mob{
-  margin-top: 89.8px;
-}
-
-.nav-mobileList li{
+  /* overflow-y-hidden sm:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 z-8 w-full h-creen bg-black/90 px-4 py-12 flex-col */
+  @apply block md:hidden fixed flex-col py-12 right-0 top-10 px-4 w-full h-full bg-gray-900 ease-in duration-300;
   margin-top: 15px;
-  font-size: 23px;
-  
+}
+
+.info{
+  font-weight: 900;
+  color: rgb(255, 0, 0);
 }
