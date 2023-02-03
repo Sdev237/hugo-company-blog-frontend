@@ -1,26 +1,29 @@
 import React from 'react'
 
-import toyotaLandCruiser from '../imgs/toyotaLandCruiser.jpg';
 
 export default function Anonces() {
   return (
-    <div className='max-w-[1540px] m-auto w-full md:flex mt-[-75px]'>
-        <div className='relative p-4 '>
-            <h3 className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold'>anonce</h3>
-            <img src={toyotaLandCruiser} alt='anonce' className='w-full h-full object-cover relative border-white border-2  shadow-lg'/>
+    <section className='py-20 text-center  mt-[-200px]'>
+        <div className='mx-auto mx-4 max-w-7xl px:6 sm:px-8 md:px-12'>
+            <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className='anonce objet-cover grid2-item p-4 '>
+                    <h3 className='text-white'>anonce</h3>
+                    <p className=" text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates harum ipsam</p>
+                </div>
+                <div className='anonce grid2-item p-4 '>
+                    <h3 className='text-white'>anonce</h3>
+                    <p className=" text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates harum ipsam</p>
+                </div>
+                <div className='anonce grid2-item p-4 '>
+                    <h3 className="text-white ">anonce</h3>
+                    <p className=" text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates harum ipsam</p>
+                </div>
+                <div className='anonce grid2-item p-4 '>
+                    <h3 className=" text-white">anonce</h3>
+                    <p className=" text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates harum ipsam</p>
+                </div>
+            </div>
         </div>
-        <div className='relative p-4 '>
-            <h3 className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold'>anonce</h3>
-            <img src={toyotaLandCruiser} alt='anonce' className='w-full h-full object-cover relative border-white border-2  shadow-lg'/>
-        </div>
-        <div className='relative p-4 '>
-            <h3 className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold'>anonce</h3>
-            <img src={toyotaLandCruiser} alt='anonce' className='w-full h-full object-cover relative border-white border-2  shadow-lg'/>
-        </div>
-        <div className='relative p-4 '>
-            <h3 className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold'>anonce</h3>
-            <img src={toyotaLandCruiser} alt='anonce' className='w-full h-full object-cover relative border-white border-2  shadow-lg'/>
-        </div>
-    </div>
+    </section>
   )
 }
