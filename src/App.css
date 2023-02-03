@@ -57,13 +57,12 @@ nav li a:hover{
   margin-top: 15px;
 }
 
-.info{
-  font-weight: 900;
-  color: rgb(255, 0, 0);
+.info p{
+  font-size: 10px;
 }
 
 .anonce{
   background-image: url(./components/imgs/toyotaLandCruiser.jpg);
-  background-repeat: no-repeat cover;
-  min-height: 10px;
+  background-color: rgb(252, 251, 251);
+  border-radius: 0.5rem;
 }

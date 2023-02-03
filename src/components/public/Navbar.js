@@ -15,7 +15,7 @@ export default function Navbar() {
         <div flex items-center>
           <div className='text-xl font-bold text-gray-700'>logo</div>
         </div>
-        <div className='flex'>
+        <div className='flex info'>
           <div className='flex items-center px-6'>
             <AiOutlineClockCircle/>
             <p className='text-sm text-gray-700'>08AM - 6PM</p>
