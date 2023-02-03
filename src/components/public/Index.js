@@ -13,7 +13,7 @@ export default function Index() {
                 <p className='text-xl sm:text-2xl lg:text-3xl'>
                   Import-export  and sale of<br/>  new and original automobiles<br/> spare parts, vehicle transformation.
                 </p>
-                <h3 className='text-3xl sm:text-2xl lg:text-2xl py-4 '>"INNOVATION IS HERE"</h3>
+                <p className='text-xl sm:text-2xl lg:text-xl py-4 slogan'>"Innovation Is Here"</p>
               </div>
             </div>
         </div>

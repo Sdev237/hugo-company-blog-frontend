@@ -57,12 +57,23 @@ nav li a:hover{
   margin-top: 15px;
 }
 
+.slogan{
+
+}
+
 .info p{
   font-size: 10px;
 }
 
 .anonce{
-  background-image: url(./components/imgs/toyotaLandCruiser.jpg);
-  background-color: rgb(252, 251, 251);
+  /* background-image: url(./components/imgs/toyotaLandCruiser.jpg);
+  background-color: rgb(139, 139, 138); */
   border-radius: 0.5rem;
+  color: var(--c-principal);
+  min-height: 20vh;
+  
+}
+.anonce p,
+.anonce h3{
+  opacity: 1;
 }
