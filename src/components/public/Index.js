@@ -1,5 +1,6 @@
 import React from 'react';
 import toyotaRav4 from '../imgs/toyotaRav4.jpg';
+import About from '../pages/About';
 import Anonces from '../pages/Anonces';
 import Blog from '../pages/Blog';
 
@@ -21,6 +22,7 @@ export default function Index() {
       </div>
       <Anonces/>
       <Blog/>
+      <About/>
     </div>
   )
 }

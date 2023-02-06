@@ -73,6 +73,41 @@ nav li a:hover{
 .anonce h3{
   opacity: 1;
 }
-.blog{
+.blogs{
   margin-top: 50px;
+}
+.blogs .items .img{
+  /* max-height: 55vh; */
+  border-radius: 0.5rem;
+  color: brown;
+}
+@media only screen and (min-width: 1024px) {
+  .descript{
+    margin-left: -80px;
+  }
+
+}
+
+@media only screen and (min-width: 1100px) {
+  .descript{
+    margin-left: -90px;
+  }
+
+}
+
+
+/* Portrait */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+}
+.about{
+  min-height: 78vh;
 }
