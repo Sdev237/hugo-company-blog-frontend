@@ -57,10 +57,6 @@ nav li a:hover{
   margin-top: 15px;
 }
 
-.slogan{
-
-}
-
 .info p{
   font-size: 10px;
 }
@@ -76,4 +72,7 @@ nav li a:hover{
 .anonce p,
 .anonce h3{
   opacity: 1;
+}
+.blog{
+  margin-top: 50px;
 }

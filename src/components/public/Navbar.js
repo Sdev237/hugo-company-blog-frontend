@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { AiFillPhone, AiOutlineClockCircle } from 'react-icons/ai';
-import {BschatSquareDots} from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
 
@@ -10,7 +10,7 @@ export default function Navbar() {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <>
+    <div>
       <div className='flex justify-between items-center px-2 py-2 nav1'>
         <div flex items-center>
           <div className='text-xl font-bold text-gray-700'>logologo</div>
@@ -34,13 +34,13 @@ export default function Navbar() {
         <nav className='hidden sm:flex px-4 '>
           <ul className='flex'>
             <li>
-              <a href=''>Home</a>
+              <Link to={'/'}>Home</Link>
             </li>
             <li>
-              <a href=''>Blog</a>
+              <a href='#blog'>Blog</a>
             </li>
             <li>
-              <a href=''>About</a>
+              <a href='#indexBlog' >About</a>
             </li>
             <li>
               <a href=''>Projets</a>
@@ -59,7 +59,7 @@ export default function Navbar() {
                       }>
           <ul className='h-full w-full text-center nav-mobileList'>
             <li>
-              <a href=''>Home</a>
+              <Link to={'/'}>Home</Link>
             </li>
             <li>
               <a href=''>Blog</a>
@@ -84,6 +84,6 @@ export default function Navbar() {
         </div>
 
       </div>
-    </>
+    </div>
   )
 }
