@@ -37,10 +37,10 @@ export default function Navbar() {
               <Link to={'/'}>Home</Link>
             </li>
             <li>
-              <a href='#blog'>Blog</a>
+              <Link to={'/blog'}>Blog</Link>
             </li>
             <li>
-              <a href='#indexBlog' >About</a>
+              <a href='#' >About</a>
             </li>
             <li>
               <a href=''>Projets</a>

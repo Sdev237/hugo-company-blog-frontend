@@ -14,7 +14,7 @@ export default function Blog() {
             <div className="p-4 font-bold text-xl md:text-2xl leading-relaxed">
               title
             </div>
-            <div className="p-4 text-sm leading-loose">
+            <div className="p-4 text-sm leading-loose ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, numquam quia? Quisquam molestias amet iusto soluta sint fuga rerum commodi ipsam, molestiae ut ipsa aspernatur voluptates facilis, a accusamus dicta.
               Illum nobis officiis dignissimos rem nihil. Architecto vitae corporis error nemo nisi molestias quis, sit voluptatem, perspiciatis mollitia porro soluta dolores, voluptate accusantium iusto odio! Architecto earum adipisci dicta rerum.
             </div>
