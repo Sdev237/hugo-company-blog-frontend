@@ -76,10 +76,17 @@ nav li a:hover{
 .blogs{
   margin-top: 50px;
 }
-.blogs .items .img{
+.img{
   /* max-height: 55vh; */
   border-radius: 0.5rem;
   color: brown;
+}
+
+.desc p{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 @media only screen and (min-width: 1024px) {
   .descript{
